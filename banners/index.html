@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Funnel academy — баннеры (1200×900)</title>
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: #f5f6fa; color: #0a0e2a; margin: 0; padding: 40px 24px 80px; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1280px; margin: 0 auto; }
+  h1 { font-size: 36px; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 8px; }
+  .lead { color: #4b5563; font-size: 16px; line-height: 1.6; margin-bottom: 40px; max-width: 720px; }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .card { background: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 24px rgba(10,14,42,0.06); display: flex; flex-direction: column; }
+  .preview { aspect-ratio: 4 / 3; position: relative; overflow: hidden; background: #0a0e2a; }
+  .preview iframe { position: absolute; top: 0; left: 0; transform-origin: 0 0; transform: scale(0.4); width: 250%; height: 250%; border: 0; pointer-events: none; }
+  .meta { padding: 22px 24px 26px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta-left h3 { font-size: 18px; font-weight: 700; margin: 0 0 4px; }
+  .meta-left p { font-size: 14px; color: #6b7280; margin: 0; }
+  .open { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: #0a0e2a; color: #fff; text-decoration: none; border-radius: 999px; font-weight: 600; font-size: 14px; flex-shrink: 0; }
+  .open:hover { background: #1e2342; }
+  .howto { margin-top: 48px; background: #fff; border-radius: 20px; padding: 32px; }
+  .howto h2 { font-size: 22px; font-weight: 700; margin: 0 0 16px; }
+  .howto ol { padding-left: 22px; line-height: 1.7; color: #374151; }
+  .howto code { background: #f1f3f9; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+  @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Баннеры Funnel academy · 1200×900</h1>
+  <p class="lead">
+    4 готовых баннера в стиле лендинга. Открой нужный, сними скриншот «node screenshot» в DevTools — получишь PNG в точном размере 1200×900. Конвертация в JPEG по вкусу. Инструкция внизу страницы.
+  </p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="preview"><iframe src="01-main.html" scrolling="no"></iframe></div>
+      <div class="meta">
+        <div class="meta-left">
+          <h3>01 · Главный hook</h3>
+          <p>Заголовок с лендинга. Общее применение, OG-превью.</p>
+        </div>
+        <a class="open" href="01-main.html" target="_blank">Открыть →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="preview"><iframe src="02-pain.html" scrolling="no"></iframe></div>
+      <div class="meta">
+        <div class="meta-left">
+          <h3>02 · Боль</h3>
+          <p>«Клиент уходит — с радостью?» Для холодных посевов.</p>
+        </div>
+        <a class="open" href="02-pain.html" target="_blank">Открыть →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="preview"><iframe src="03-case.html" scrolling="no"></iframe></div>
+      <div class="meta">
+        <div class="meta-left">
+          <h3>03 · Кейс / авторитет</h3>
+          <p>«1,26 млрд ₽» — для разогретой аудитории.</p>
+        </div>
+        <a class="open" href="03-case.html" target="_blank">Открыть →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="preview"><iframe src="04-cta.html" scrolling="no"></iframe></div>
+      <div class="meta">
+        <div class="meta-left">
+          <h3>04 · CTA-оффер</h3>
+          <p>«1 урок · 20 минут · бесплатно». Прямой призыв для TG Ads.</p>
+        </div>
+        <a class="open" href="04-cta.html" target="_blank">Открыть →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="howto">
+    <h2>Как конвертировать в JPEG</h2>
+    <ol>
+      <li>Открой нужный баннер по ссылке «Открыть» — он откроется в новой вкладке.</li>
+      <li>Нажми <code>F12</code> (или <code>Cmd+Option+I</code> на маке) — откроется DevTools.</li>
+      <li>В панели Elements найди тег <code>&lt;div class="banner"&gt;</code> — это сам баннер 1200×900.</li>
+      <li>Правый клик на этой строке в DevTools → <b>Capture node screenshot</b>.</li>
+      <li>Браузер сохранит PNG ровно 1200×900 пикселей.</li>
+      <li>Если нужен JPEG — кинь PNG в любой конвертер (например <a href="https://convertio.co/ru/png-jpg/" target="_blank" rel="noopener">convertio.co</a>) или через Preview на маке: открыл PNG → File → Export → выбрал JPEG.</li>
+    </ol>
+    <p style="margin-top:16px;color:#6b7280;font-size:14px;">
+      <b>Альтернатива без DevTools:</b> установи расширение «GoFullPage» или «Awesome Screenshot» — сделает скрин страницы целиком. Минус: захватит и серый фон вокруг баннера, придётся обрезать.
+    </p>
+  </div>
+</div>
+</body>
+</html>
