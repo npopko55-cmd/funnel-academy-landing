@@ -59,41 +59,41 @@
 
   <!-- ===================== HERO ===================== -->
   <section class="relative hero-bg noise text-white overflow-hidden">
-    <nav class="relative z-10 flex items-center justify-between px-6 md:px-10 pt-6 md:pt-8">
-      <div class="flex items-center gap-2.5">
-        <div class="w-8 h-8 bg-white text-ink rounded-md flex items-center justify-center font-bold">F</div>
-        <span class="font-semibold tracking-tight">Funnel academy<span class="text-white/40 align-super text-xs ml-0.5">®</span></span>
+    <nav class="relative z-10 flex items-center justify-between gap-3 px-5 sm:px-6 md:px-10 pt-5 sm:pt-6 md:pt-8">
+      <div class="flex items-center gap-2 sm:gap-2.5 min-w-0">
+        <div class="w-7 h-7 sm:w-8 sm:h-8 bg-white text-ink rounded-md flex items-center justify-center font-bold flex-none">F</div>
+        <span class="font-semibold tracking-tight text-sm sm:text-base truncate">Funnel academy<span class="text-white/40 align-super text-[10px] ml-0.5">®</span></span>
       </div>
-      <div class="hidden md:block text-xs uppercase tracking-[0.18em] text-white/60">
+      <div class="hidden lg:block text-xs uppercase tracking-[0.18em] text-white/60">
         База знаний Евгения Ли-Юна
       </div>
-      <a href="https://t.me/JohnFox" target="_blank" rel="noopener" class="text-sm font-medium px-4 py-2 rounded-full border border-white/15 hover:bg-white/10 transition">
-        Написать в Telegram
+      <a href="https://t.me/JohnFox" target="_blank" rel="noopener" class="text-xs sm:text-sm font-medium px-3 sm:px-4 py-2 rounded-full border border-white/15 hover:bg-white/10 transition flex-none whitespace-nowrap">
+        <span class="hidden sm:inline">Написать в </span>Telegram
       </a>
     </nav>
 
-    <div class="relative z-10 max-w-6xl mx-auto px-6 md:px-10 pt-10 md:pt-14 pb-20 md:pb-28">
-      <div class="grid lg:grid-cols-[1.05fr_1fr] gap-10 lg:gap-14 items-center">
-        <!-- Hero copy -->
-        <div>
-          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/10 text-xs uppercase tracking-widest text-white/80 mb-8">
+    <div class="relative z-10 max-w-6xl mx-auto px-5 sm:px-6 md:px-10 pt-8 md:pt-14 pb-16 md:pb-28">
+      <div class="grid lg:grid-cols-[1.05fr_1fr] gap-8 sm:gap-10 lg:gap-14 items-center">
+        <!-- Hero copy: shown SECOND on mobile, FIRST on desktop -->
+        <div class="order-2 lg:order-1">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/10 text-[10px] sm:text-xs uppercase tracking-widest text-white/80 mb-6 sm:mb-8">
             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
             1 урок · 20 минут
           </div>
-          <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.25rem] font-bold leading-[0.95] tracking-tight">
+          <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.25rem] font-bold leading-[1] sm:leading-[0.95] tracking-tight">
             Как всегда<br />
             давать <span class="italic-serif font-normal">результат</span><br />
             клиентам
           </h1>
-          <p class="mt-8 max-w-xl text-lg md:text-xl text-white/70 leading-relaxed">
+          <p class="mt-6 sm:mt-8 max-w-xl text-base sm:text-lg md:text-xl text-white/70 leading-relaxed">
             Разбираю подход, которым я вывел Академию <span class="font-semibold text-white">Ukids</span> на 1,26 млрд ₽ за 2024 год: 4 темы, в которых плавает 95% маркетологов.
           </p>
         </div>
 
-        <!-- Video on first screen -->
-        <div class="lg:order-last">
-          <div class="text-xs uppercase tracking-[0.18em] text-white/50 mb-3 lg:text-right">Видео-разбор</div>
-          <div class="relative w-full pt-[56.25%] rounded-2xl overflow-hidden ring-1 ring-white/10 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5)]">
+        <!-- Video: shown FIRST on mobile (above the fold), to the right on desktop -->
+        <div class="order-1 lg:order-2">
+          <div class="text-[10px] sm:text-xs uppercase tracking-[0.18em] text-white/50 mb-2 sm:mb-3 lg:text-right">Видео-разбор</div>
+          <div class="relative w-full pt-[56.25%] rounded-xl sm:rounded-2xl overflow-hidden ring-1 ring-white/10 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5)]">
             <iframe
               src="https://kinescope.io/embed/2qbax3MphDnHnBGHMcDLz8"
               allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write; screen-wake-lock;"
@@ -108,13 +108,13 @@
   </section>
 
   <!-- ===================== PRODUCTS ===================== -->
-  <section id="products" class="relative bg-white py-24 md:py-32">
-    <div class="max-w-6xl mx-auto px-6 md:px-10">
-      <div class="max-w-3xl mb-12 md:mb-16">
-        <h2 class="text-4xl md:text-6xl font-bold leading-[1.02] tracking-tight">
+  <section id="products" class="relative bg-white py-20 sm:py-24 md:py-32">
+    <div class="max-w-6xl mx-auto px-5 sm:px-6 md:px-10">
+      <div class="max-w-3xl mb-10 sm:mb-12 md:mb-16">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight">
           Что изучить <span class="italic-serif font-normal">дальше</span>
         </h2>
-        <p class="mt-6 text-lg text-gray-600 leading-relaxed">
+        <p class="mt-4 sm:mt-6 text-base sm:text-lg text-gray-600 leading-relaxed">
           3 мини-продукта, которые сделают из тебя <span class="font-semibold text-ink">ТВЁРДОГО</span> маркетолога.
         </p>
       </div>
@@ -123,7 +123,7 @@
       <div class="grid md:grid-cols-3 gap-5 mb-6">
 
         <!-- Block 01: Кастдевы -->
-        <article class="group relative bg-gray-50 rounded-2xl p-8 ring-1 ring-gray-100 hover:ring-ink/20 hover:shadow-xl hover:-translate-y-0.5 transition flex flex-col">
+        <article class="group relative bg-gray-50 rounded-2xl p-6 sm:p-8 ring-1 ring-gray-100 hover:ring-ink/20 hover:shadow-xl hover:-translate-y-0.5 transition flex flex-col">
           <div class="flex items-center justify-between mb-6">
             <div class="text-xs uppercase tracking-widest text-gray-400">Блок 01</div>
             <div class="w-9 h-9 rounded-full bg-ink text-white flex items-center justify-center text-sm">→</div>
@@ -142,7 +142,7 @@
         </article>
 
         <!-- Block 02: Юнит-экономика -->
-        <article class="group relative bg-gray-50 rounded-2xl p-8 ring-1 ring-gray-100 hover:ring-ink/20 hover:shadow-xl hover:-translate-y-0.5 transition flex flex-col">
+        <article class="group relative bg-gray-50 rounded-2xl p-6 sm:p-8 ring-1 ring-gray-100 hover:ring-ink/20 hover:shadow-xl hover:-translate-y-0.5 transition flex flex-col">
           <div class="flex items-center justify-between mb-6">
             <div class="text-xs uppercase tracking-widest text-gray-400">Блок 02</div>
             <div class="w-9 h-9 rounded-full bg-ink text-white flex items-center justify-center text-sm">→</div>
@@ -161,7 +161,7 @@
         </article>
 
         <!-- Block 03: Карта смыслов -->
-        <article class="group relative bg-gray-50 rounded-2xl p-8 ring-1 ring-gray-100 hover:ring-ink/20 hover:shadow-xl hover:-translate-y-0.5 transition flex flex-col">
+        <article class="group relative bg-gray-50 rounded-2xl p-6 sm:p-8 ring-1 ring-gray-100 hover:ring-ink/20 hover:shadow-xl hover:-translate-y-0.5 transition flex flex-col">
           <div class="flex items-center justify-between mb-6">
             <div class="text-xs uppercase tracking-widest text-gray-400">Блок 03</div>
             <div class="w-9 h-9 rounded-full bg-ink text-white flex items-center justify-center text-sm">→</div>
@@ -182,26 +182,26 @@
 
       <!-- Combo: 2+1 (featured) -->
       <article class="relative rounded-2xl overflow-hidden">
-        <div class="hero-bg noise text-white p-8 md:p-12 relative">
-          <div class="relative z-10 grid md:grid-cols-[1.4fr_1fr] gap-8 items-center">
+        <div class="hero-bg noise text-white p-6 sm:p-8 md:p-12 relative">
+          <div class="relative z-10 grid md:grid-cols-[1.4fr_1fr] gap-6 sm:gap-8 items-center">
             <div>
-              <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/15 border border-white/20 text-xs uppercase tracking-widest text-white/90 mb-6">
+              <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/15 border border-white/20 text-[10px] sm:text-xs uppercase tracking-widest text-white/90 mb-5 sm:mb-6">
                 ⭐ Best deal · 2+1
               </div>
-              <h3 class="text-3xl md:text-5xl font-bold leading-tight tracking-tight">
+              <h3 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">
                 Все три <span class="italic-serif font-normal">по цене двух</span>
               </h3>
-              <p class="mt-6 text-white/75 max-w-xl leading-relaxed">
+              <p class="mt-5 sm:mt-6 text-sm sm:text-base text-white/75 max-w-xl leading-relaxed">
                 Кастдевы + Юнит-экономика + Карта смыслов. Комплексный пакет, который закрывает все ключевые зоны маркетинга разом.
               </p>
             </div>
-            <div class="lg:text-right">
-              <div class="text-xs uppercase tracking-widest text-white/50 mb-1">Цена комбо</div>
-              <div class="flex items-baseline gap-3 lg:justify-end">
-                <span class="text-2xl text-white/40 line-through">15 000 ₽</span>
-                <span class="text-5xl md:text-6xl font-bold tracking-tight">9 770 ₽</span>
+            <div class="md:text-right">
+              <div class="text-[10px] sm:text-xs uppercase tracking-widest text-white/50 mb-1">Цена комбо</div>
+              <div class="flex items-baseline gap-3 md:justify-end flex-wrap">
+                <span class="text-xl sm:text-2xl text-white/40 line-through">15 000 ₽</span>
+                <span class="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold tracking-tight">9 770 ₽</span>
               </div>
-              <a href="#" class="mt-6 inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-white text-ink font-semibold hover:bg-white/90 transition">
+              <a href="#" class="mt-5 sm:mt-6 inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3.5 sm:py-4 rounded-full bg-white text-ink font-semibold hover:bg-white/90 transition w-full md:w-auto">
                 Купить комбо →
               </a>
             </div>
@@ -212,46 +212,46 @@
   </section>
 
   <!-- ===================== AUDIENCE ===================== -->
-  <section class="bg-gray-50 py-24 md:py-32">
-    <div class="max-w-4xl mx-auto px-6 md:px-10">
-      <div class="max-w-3xl mb-12 md:mb-16">
-        <h2 class="text-4xl md:text-6xl font-bold leading-[1.02] tracking-tight">
+  <section class="bg-gray-50 py-20 sm:py-24 md:py-32">
+    <div class="max-w-4xl mx-auto px-5 sm:px-6 md:px-10">
+      <div class="max-w-3xl mb-10 sm:mb-12 md:mb-16">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight">
           Кому точно стоит <span class="italic-serif font-normal">это изучить?</span>
         </h2>
-        <p class="mt-6 text-lg text-gray-600 leading-relaxed">
+        <p class="mt-4 sm:mt-6 text-base sm:text-lg text-gray-600 leading-relaxed">
           Если есть хоть 1 попадание — ты не сможешь работать дальше без этой базы.
         </p>
       </div>
 
       <ul class="space-y-3">
-        <li class="flex items-start gap-5 bg-white rounded-2xl p-6 md:p-7 ring-1 ring-gray-100">
-          <div class="flex-none w-10 h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-sm">01</div>
-          <div class="flex-1">
-            <div class="text-lg md:text-xl font-semibold leading-snug">Ты джун или мидл-маркетолог</div>
+        <li class="flex items-start gap-4 sm:gap-5 bg-white rounded-2xl p-5 sm:p-6 md:p-7 ring-1 ring-gray-100">
+          <div class="flex-none w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-xs sm:text-sm">01</div>
+          <div class="flex-1 min-w-0">
+            <div class="text-base sm:text-lg md:text-xl font-semibold leading-snug">Ты джун или мидл-маркетолог</div>
           </div>
         </li>
-        <li class="flex items-start gap-5 bg-white rounded-2xl p-6 md:p-7 ring-1 ring-gray-100">
-          <div class="flex-none w-10 h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-sm">02</div>
-          <div class="flex-1">
-            <div class="text-lg md:text-xl font-semibold leading-snug">Постоянно тушишь пожары в проектах</div>
+        <li class="flex items-start gap-4 sm:gap-5 bg-white rounded-2xl p-5 sm:p-6 md:p-7 ring-1 ring-gray-100">
+          <div class="flex-none w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-xs sm:text-sm">02</div>
+          <div class="flex-1 min-w-0">
+            <div class="text-base sm:text-lg md:text-xl font-semibold leading-snug">Постоянно тушишь пожары в проектах</div>
           </div>
         </li>
-        <li class="flex items-start gap-5 bg-white rounded-2xl p-6 md:p-7 ring-1 ring-gray-100">
-          <div class="flex-none w-10 h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-sm">03</div>
-          <div class="flex-1">
-            <div class="text-lg md:text-xl font-semibold leading-snug">С тобой не советуются в проектах / компании</div>
+        <li class="flex items-start gap-4 sm:gap-5 bg-white rounded-2xl p-5 sm:p-6 md:p-7 ring-1 ring-gray-100">
+          <div class="flex-none w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-xs sm:text-sm">03</div>
+          <div class="flex-1 min-w-0">
+            <div class="text-base sm:text-lg md:text-xl font-semibold leading-snug">С тобой не советуются в проектах / компании</div>
           </div>
         </li>
-        <li class="flex items-start gap-5 bg-white rounded-2xl p-6 md:p-7 ring-1 ring-gray-100">
-          <div class="flex-none w-10 h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-sm">04</div>
-          <div class="flex-1">
-            <div class="text-lg md:text-xl font-semibold leading-snug">Ты застрял на 1 уровне в маркетинге</div>
+        <li class="flex items-start gap-4 sm:gap-5 bg-white rounded-2xl p-5 sm:p-6 md:p-7 ring-1 ring-gray-100">
+          <div class="flex-none w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-xs sm:text-sm">04</div>
+          <div class="flex-1 min-w-0">
+            <div class="text-base sm:text-lg md:text-xl font-semibold leading-snug">Ты застрял на 1 уровне в маркетинге</div>
           </div>
         </li>
-        <li class="flex items-start gap-5 bg-white rounded-2xl p-6 md:p-7 ring-1 ring-gray-100">
-          <div class="flex-none w-10 h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-sm">05</div>
-          <div class="flex-1">
-            <div class="text-lg md:text-xl font-semibold leading-snug">Хочешь признания от коллег</div>
+        <li class="flex items-start gap-4 sm:gap-5 bg-white rounded-2xl p-5 sm:p-6 md:p-7 ring-1 ring-gray-100">
+          <div class="flex-none w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-xs sm:text-sm">05</div>
+          <div class="flex-1 min-w-0">
+            <div class="text-base sm:text-lg md:text-xl font-semibold leading-snug">Хочешь признания от коллег</div>
           </div>
         </li>
       </ul>
@@ -259,53 +259,53 @@
   </section>
 
   <!-- ===================== FAQ + CONTACT ===================== -->
-  <section class="bg-white py-24 md:py-32">
-    <div class="max-w-3xl mx-auto px-6 md:px-10">
-      <h2 class="text-4xl md:text-6xl font-bold leading-[1.02] tracking-tight">
+  <section class="bg-white py-20 sm:py-24 md:py-32">
+    <div class="max-w-3xl mx-auto px-5 sm:px-6 md:px-10">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight">
         Остались <span class="italic-serif font-normal">вопросы?</span>
       </h2>
-      <p class="mt-6 text-lg text-gray-600 leading-relaxed mb-12">
+      <p class="mt-4 sm:mt-6 text-base sm:text-lg text-gray-600 leading-relaxed mb-8 sm:mb-12">
         Чаще всего спрашивают это:
       </p>
 
-      <div class="space-y-3 mb-16">
-        <details class="group bg-gray-50 rounded-xl p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
-          <summary class="flex items-center justify-between gap-4 cursor-pointer">
-            <span class="font-semibold text-lg leading-snug">А что если я уже знаю кастдевы / юнит-экономику / карту смыслов?</span>
+      <div class="space-y-3 mb-12 sm:mb-16">
+        <details class="group bg-gray-50 rounded-xl p-5 sm:p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
+          <summary class="flex items-center justify-between gap-3 sm:gap-4 cursor-pointer">
+            <span class="font-semibold text-base sm:text-lg leading-snug">А что если я уже знаю кастдевы / юнит-экономику / карту смыслов?</span>
             <span class="faq-icon text-2xl text-gray-400 flex-none">+</span>
           </summary>
-          <div class="mt-4 text-gray-600 leading-relaxed space-y-3">
+          <div class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed space-y-3">
             <p>Скорее всего, ты <b>делаешь это неправильно</b>. Или делал неправильно — просто никто не подсветил. Поэтому даже если тема знакома, велика вероятность, что внутри будут моменты, которые перестроят твой подход.</p>
             <p>Если же ты на 100% уверен, что с одной из тем у тебя нет вопросов — просто выбери тот блок, в котором ты <b>западаешь больше всего</b>. И возьми только его.</p>
           </div>
         </details>
 
-        <details class="group bg-gray-50 rounded-xl p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
-          <summary class="flex items-center justify-between gap-4 cursor-pointer">
-            <span class="font-semibold text-lg leading-snug">Сколько времени нужно на изучение одного блока?</span>
+        <details class="group bg-gray-50 rounded-xl p-5 sm:p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
+          <summary class="flex items-center justify-between gap-3 sm:gap-4 cursor-pointer">
+            <span class="font-semibold text-base sm:text-lg leading-snug">Сколько времени нужно на изучение одного блока?</span>
             <span class="faq-icon text-2xl text-gray-400 flex-none">+</span>
           </summary>
-          <div class="mt-4 text-gray-600 leading-relaxed">
+          <div class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
             За <b>1-2 дня в нормальном темпе</b> ты успеешь полностью пройти блок и сразу внедрить его в свою работу. Не сериал на месяц — короткие, плотные материалы под применение.
           </div>
         </details>
 
-        <details class="group bg-gray-50 rounded-xl p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
-          <summary class="flex items-center justify-between gap-4 cursor-pointer">
-            <span class="font-semibold text-lg leading-snug">Насколько долго продукты будут со мной?</span>
+        <details class="group bg-gray-50 rounded-xl p-5 sm:p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
+          <summary class="flex items-center justify-between gap-3 sm:gap-4 cursor-pointer">
+            <span class="font-semibold text-base sm:text-lg leading-snug">Насколько долго продукты будут со мной?</span>
             <span class="faq-icon text-2xl text-gray-400 flex-none">+</span>
           </summary>
-          <div class="mt-4 text-gray-600 leading-relaxed">
+          <div class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
             Продукты остаются с тобой <b>навсегда</b>. В любой момент сможешь вернуться, пересмотреть, перепройти. Это не подписка — ты владеешь доступом.
           </div>
         </details>
 
-        <details class="group bg-gray-50 rounded-xl p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
-          <summary class="flex items-center justify-between gap-4 cursor-pointer">
-            <span class="font-semibold text-lg leading-snug">Могу ли я задавать вопросы по продукту?</span>
+        <details class="group bg-gray-50 rounded-xl p-5 sm:p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
+          <summary class="flex items-center justify-between gap-3 sm:gap-4 cursor-pointer">
+            <span class="font-semibold text-base sm:text-lg leading-snug">Могу ли я задавать вопросы по продукту?</span>
             <span class="faq-icon text-2xl text-gray-400 flex-none">+</span>
           </summary>
-          <div class="mt-4 text-gray-600 leading-relaxed">
+          <div class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
             Да — у тебя будет <b>прямая связь со мной или куратором</b>. Что-то непонятно — спрашиваешь. Есть свой проект и хочешь сверить применение — пишешь. Открыт к вопросам, без формата «купил и забыл».
           </div>
         </details>
@@ -313,16 +313,16 @@
 
       <!-- Contact CTA -->
       <div class="rounded-2xl overflow-hidden">
-        <div class="hero-bg noise text-white p-8 md:p-12 text-center">
-          <h3 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+        <div class="hero-bg noise text-white p-6 sm:p-8 md:p-12 text-center">
+          <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight mb-3 sm:mb-4">
             Остались <span class="italic-serif font-normal">вопросы?</span>
           </h3>
-          <p class="text-white/70 mb-8 max-w-xl mx-auto leading-relaxed">
+          <p class="text-sm sm:text-base text-white/70 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
             Напиши мне в Telegram — отвечу лично.
           </p>
-          <a href="https://t.me/JohnFox" target="_blank" rel="noopener" class="inline-flex items-center gap-3 px-7 py-4 rounded-full bg-white text-ink font-semibold hover:bg-white/90 transition">
-            <svg viewBox="0 0 24 24" class="w-5 h-5 fill-current"><path d="M22 2L2 9.5l6.5 2.5L18 6 12 13.5 14.5 22z"/></svg>
-            Написать в Telegram · @JohnFox
+          <a href="https://t.me/JohnFox" target="_blank" rel="noopener" class="inline-flex items-center gap-2 sm:gap-3 px-5 sm:px-7 py-3.5 sm:py-4 rounded-full bg-white text-ink font-semibold hover:bg-white/90 transition text-sm sm:text-base max-w-full">
+            <svg viewBox="0 0 24 24" class="w-4 h-4 sm:w-5 sm:h-5 fill-current flex-none"><path d="M22 2L2 9.5l6.5 2.5L18 6 12 13.5 14.5 22z"/></svg>
+            <span class="truncate">Написать в Telegram · @JohnFox</span>
           </a>
         </div>
       </div>
@@ -331,11 +331,11 @@
 
   <!-- ===================== FOOTER ===================== -->
   <footer class="bg-ink text-white/70">
-    <div class="max-w-6xl mx-auto px-6 md:px-10 py-14 md:py-16">
-      <div class="grid md:grid-cols-3 gap-10">
-        <div>
+    <div class="max-w-6xl mx-auto px-5 sm:px-6 md:px-10 py-12 sm:py-14 md:py-16">
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10">
+        <div class="sm:col-span-2 md:col-span-1">
           <div class="flex items-center gap-2.5 mb-4">
-            <div class="w-8 h-8 bg-white text-ink rounded-md flex items-center justify-center font-bold">F</div>
+            <div class="w-8 h-8 bg-white text-ink rounded-md flex items-center justify-center font-bold flex-none">F</div>
             <span class="font-semibold text-white">Funnel academy</span>
           </div>
           <p class="text-sm leading-relaxed text-white/60">
@@ -361,7 +361,7 @@
           </ul>
         </div>
       </div>
-      <div class="mt-12 pt-8 border-t border-white/10 text-xs text-white/40">
+      <div class="mt-10 sm:mt-12 pt-6 sm:pt-8 border-t border-white/10 text-xs text-white/40">
         © 2026 Funnel academy. Все права защищены.
       </div>
     </div>
