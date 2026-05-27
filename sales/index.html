@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Funnel academy — мини-продукты Евгения Ли-Юна</title>
+  <meta name="description" content="3 мини-продукта по ключевым зонам маркетинга от Евгения Ли-Юна — фундамент, на котором построена воронка Ukids на 1,26 млрд ₽." />
+  <meta property="og:title" content="Funnel academy — мини-продукты Евгения Ли-Юна" />
+  <meta property="og:description" content="3 мини-продукта, которые сделают из тебя ТВЁРДОГО маркетолога." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: {
+              DEFAULT: '#0A0E2A',
+              50: '#1E2342',
+              100: '#171B36',
+            },
+            accent: {
+              DEFAULT: '#5B6FFF',
+              soft: '#A5B3FF',
+            },
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            serif: ['"Playfair Display"', 'ui-serif', 'Georgia', 'serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    .italic-serif { font-family: 'Playfair Display', serif; font-style: italic; font-weight: 500; }
+    .hero-bg {
+      background:
+        radial-gradient(1200px 600px at 80% 20%, rgba(91,111,255,0.35), transparent 60%),
+        radial-gradient(800px 500px at 20% 80%, rgba(91,111,255,0.18), transparent 65%),
+        linear-gradient(135deg, #0a0e2a 0%, #131a45 45%, #1d2a6e 100%);
+    }
+    .noise::before {
+      content: ''; position: absolute; inset: 0; opacity: 0.04; pointer-events: none;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+    details > summary { list-style: none; }
+    details > summary::-webkit-details-marker { display: none; }
+    details[open] .faq-icon { transform: rotate(45deg); }
+    .faq-icon { transition: transform 0.2s ease-out; }
+    html { scroll-behavior: smooth; }
+  </style>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=109369042', 'ym');
+    ym(109369042, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/109369042" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+</head>
+<body class="bg-white text-ink antialiased">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="relative hero-bg noise text-white overflow-hidden">
+    <nav class="relative z-10 flex items-center justify-between gap-3 px-5 sm:px-6 md:px-10 pt-5 sm:pt-6 md:pt-8">
+      <div class="flex items-center gap-2 sm:gap-2.5 min-w-0">
+        <div class="w-7 h-7 sm:w-8 sm:h-8 bg-white text-ink rounded-md flex items-center justify-center font-bold flex-none">F</div>
+        <span class="font-semibold tracking-tight text-sm sm:text-base">Funnel academy<span class="text-white/40 align-super text-[10px] ml-0.5">®</span></span>
+      </div>
+      <div class="hidden md:block text-xs uppercase tracking-[0.18em] text-white/60">
+        База знаний Евгения Ли-Юна
+      </div>
+    </nav>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-5 sm:px-6 md:px-10 pt-8 md:pt-14 pb-16 md:pb-28">
+      <div class="grid lg:grid-cols-[1.2fr_1fr] gap-8 sm:gap-10 lg:gap-14 items-center">
+        <!-- Hero copy — no-video version with stat card on the right -->
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/10 text-[10px] sm:text-xs uppercase tracking-widest text-white/80 mb-6 sm:mb-8">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+            3 мини-продукта · фундамент маркетинга
+          </div>
+          <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.25rem] font-bold leading-[1] sm:leading-[0.95] tracking-tight">
+            Как всегда<br />
+            давать <span class="italic-serif font-normal">результат</span><br />
+            клиентам
+          </h1>
+          <p class="mt-6 sm:mt-8 max-w-xl text-base sm:text-lg md:text-xl text-white/70 leading-relaxed">
+            Тот самый подход, которым я вывел Академию <span class="font-semibold text-white">Ukids</span> на 1,26 млрд ₽ за 2024 год — собран в 3 мини-продукта по ключевым зонам, в которых плавает 95% маркетологов.
+          </p>
+          <a href="#products" class="mt-8 sm:mt-10 inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-white text-ink font-semibold hover:bg-white/90 transition">
+            Перейти к продуктам ↓
+          </a>
+        </div>
+
+        <!-- Stat card instead of video -->
+        <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur-sm p-8 sm:p-10">
+          <div class="text-[10px] sm:text-xs uppercase tracking-[0.18em] text-white/50 mb-4">Кейс</div>
+          <div class="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-none">1,26</div>
+          <div class="text-xl sm:text-2xl font-semibold text-white/80 mt-1">млрд ₽</div>
+          <p class="mt-6 text-sm sm:text-base text-white/70 leading-relaxed">
+            Выручка Академии <b>Ukids</b> за 2024 год — на воронке, которую я построил по тому самому фундаменту, что внутри мини-продуктов.
+          </p>
+          <div class="mt-6 pt-6 border-t border-white/10 grid grid-cols-3 gap-3 text-center">
+            <div>
+              <div class="text-2xl font-bold">3</div>
+              <div class="text-[10px] uppercase tracking-widest text-white/50 mt-1">продукта</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold">4</div>
+              <div class="text-[10px] uppercase tracking-widest text-white/50 mt-1">темы</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold">95<span class="text-base">%</span></div>
+              <div class="text-[10px] uppercase tracking-widest text-white/50 mt-1">плавает</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRODUCTS ===================== -->
+  <section id="products" class="relative bg-white py-20 sm:py-24 md:py-32">
+    <div class="max-w-6xl mx-auto px-5 sm:px-6 md:px-10">
+      <div class="max-w-3xl mb-10 sm:mb-12 md:mb-16">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight">
+          Что изучить <span class="italic-serif font-normal">дальше</span>
+        </h2>
+        <p class="mt-4 sm:mt-6 text-base sm:text-lg text-gray-600 leading-relaxed">
+          3 мини-продукта, которые сделают из тебя <span class="font-semibold text-ink">ТВЁРДОГО</span> маркетолога.
+        </p>
+      </div>
+
+      <!-- 3 product cards. Flex column + mt-auto on price block to align bottoms. -->
+      <div class="grid md:grid-cols-3 gap-5 mb-6">
+
+        <!-- Block 01: Кастдевы -->
+        <article class="group relative bg-gray-50 rounded-2xl p-6 sm:p-8 ring-1 ring-gray-100 hover:ring-ink/20 hover:shadow-xl hover:-translate-y-0.5 transition flex flex-col">
+          <div class="flex items-center justify-between mb-6">
+            <div class="text-xs uppercase tracking-widest text-gray-400">Блок 01</div>
+            <div class="w-9 h-9 rounded-full bg-ink text-white flex items-center justify-center text-sm">→</div>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Кастдевы</h3>
+          <p class="text-gray-600 text-sm leading-relaxed flex-1">
+            Customer Development: как проводить кастдевы, чтобы они тебе ПОМОГАЛИ. Как и когда их нужно использовать.
+          </p>
+          <div class="mt-8 flex items-end justify-between">
+            <div>
+              <div class="text-xs uppercase tracking-widest text-gray-400 mb-1">Цена</div>
+              <div class="text-3xl font-bold">5 000 ₽</div>
+            </div>
+            <a href="https://payform.ru/ntbzbBy/?utm_source=funnel-academy&amp;utm_medium=landing&amp;utm_campaign=launch-v1&amp;utm_content=card-kastdev" target="_blank" rel="noopener" onclick="if(typeof ym!=='undefined')ym(109369042,'reachGoal','click_buy_kastdev')" class="px-5 py-3 bg-ink text-white rounded-full text-sm font-semibold hover:bg-ink-50 transition">Купить</a>
+          </div>
+        </article>
+
+        <!-- Block 02: Юнит-экономика -->
+        <article class="group relative bg-gray-50 rounded-2xl p-6 sm:p-8 ring-1 ring-gray-100 hover:ring-ink/20 hover:shadow-xl hover:-translate-y-0.5 transition flex flex-col">
+          <div class="flex items-center justify-between mb-6">
+            <div class="text-xs uppercase tracking-widest text-gray-400">Блок 02</div>
+            <div class="w-9 h-9 rounded-full bg-ink text-white flex items-center justify-center text-sm">→</div>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Юнит-экономика</h3>
+          <p class="text-gray-600 text-sm leading-relaxed flex-1">
+            Шаблон юнит-экономики. Ты научишься руководить маркетингом всей компании на языке цифр.
+          </p>
+          <div class="mt-8 flex items-end justify-between">
+            <div>
+              <div class="text-xs uppercase tracking-widest text-gray-400 mb-1">Цена</div>
+              <div class="text-3xl font-bold">5 000 ₽</div>
+            </div>
+            <a href="https://payform.ru/nfbgu8e/?utm_source=funnel-academy&amp;utm_medium=landing&amp;utm_campaign=launch-v1&amp;utm_content=card-unit" target="_blank" rel="noopener" onclick="if(typeof ym!=='undefined')ym(109369042,'reachGoal','click_buy_unit')" class="px-5 py-3 bg-ink text-white rounded-full text-sm font-semibold hover:bg-ink-50 transition">Купить</a>
+          </div>
+        </article>
+
+        <!-- Block 03: Карта смыслов -->
+        <article class="group relative bg-gray-50 rounded-2xl p-6 sm:p-8 ring-1 ring-gray-100 hover:ring-ink/20 hover:shadow-xl hover:-translate-y-0.5 transition flex flex-col">
+          <div class="flex items-center justify-between mb-6">
+            <div class="text-xs uppercase tracking-widest text-gray-400">Блок 03</div>
+            <div class="w-9 h-9 rounded-full bg-ink text-white flex items-center justify-center text-sm">→</div>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Карта смыслов</h3>
+          <p class="text-gray-600 text-sm leading-relaxed flex-1">
+            Главный документ, из которого собирается весь маркетинг проекта. Без него любая реклама запускается наугад.
+          </p>
+          <div class="mt-8 flex items-end justify-between">
+            <div>
+              <div class="text-xs uppercase tracking-widest text-gray-400 mb-1">Цена</div>
+              <div class="text-3xl font-bold">5 000 ₽</div>
+            </div>
+            <a href="https://payform.ru/iubgu5O/?utm_source=funnel-academy&amp;utm_medium=landing&amp;utm_campaign=launch-v1&amp;utm_content=card-map" target="_blank" rel="noopener" onclick="if(typeof ym!=='undefined')ym(109369042,'reachGoal','click_buy_map')" class="px-5 py-3 bg-ink text-white rounded-full text-sm font-semibold hover:bg-ink-50 transition">Купить</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Combo: 2+1 (featured) -->
+      <article class="relative rounded-2xl overflow-hidden">
+        <div class="hero-bg noise text-white p-6 sm:p-8 md:p-12 relative">
+          <div class="relative z-10 grid md:grid-cols-[1.4fr_1fr] gap-6 sm:gap-8 items-center">
+            <div>
+              <div class="inline-flex items-center px-3 py-1.5 rounded-full bg-white/25 border border-white/40 text-[10px] sm:text-xs uppercase tracking-widest text-white mb-5 sm:mb-6 backdrop-blur-sm">
+                Самый выгодный
+              </div>
+              <h3 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">
+                Все три <span class="italic-serif font-normal">по цене двух</span>
+              </h3>
+              <p class="mt-5 sm:mt-6 text-sm sm:text-base text-white/75 max-w-xl leading-relaxed">
+                Кастдевы + Юнит-экономика + Карта смыслов. Комплексный пакет, который закрывает все ключевые зоны маркетинга разом.
+              </p>
+            </div>
+            <div class="md:text-right">
+              <div class="text-[10px] sm:text-xs uppercase tracking-widest text-white/50 mb-1">Цена комбо</div>
+              <div class="flex items-baseline gap-3 md:justify-end flex-wrap">
+                <span class="text-xl sm:text-2xl text-white/40 line-through">15 000 ₽</span>
+                <span class="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold tracking-tight">9 770 ₽</span>
+              </div>
+              <a href="https://payform.ru/pbbyobO/?utm_source=funnel-academy&amp;utm_medium=landing&amp;utm_campaign=launch-v1&amp;utm_content=card-combo" target="_blank" rel="noopener" onclick="if(typeof ym!=='undefined')ym(109369042,'reachGoal','click_buy_combo')" class="mt-5 sm:mt-6 inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3.5 sm:py-4 rounded-full bg-white text-ink font-semibold hover:bg-white/90 transition w-full md:w-auto">
+                Купить комбо →
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== AUDIENCE ===================== -->
+  <section class="bg-gray-50 py-20 sm:py-24 md:py-32">
+    <div class="max-w-4xl mx-auto px-5 sm:px-6 md:px-10">
+      <div class="max-w-3xl mb-10 sm:mb-12 md:mb-16">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight">
+          Кому точно стоит <span class="italic-serif font-normal">это изучить?</span>
+        </h2>
+        <p class="mt-4 sm:mt-6 text-base sm:text-lg text-gray-600 leading-relaxed">
+          Если есть хоть 1 попадание — ты не сможешь работать дальше без этой базы.
+        </p>
+      </div>
+
+      <ul class="space-y-3">
+        <li class="flex items-start gap-4 sm:gap-5 bg-white rounded-2xl p-5 sm:p-6 md:p-7 ring-1 ring-gray-100">
+          <div class="flex-none w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-xs sm:text-sm">01</div>
+          <div class="flex-1 min-w-0">
+            <div class="text-base sm:text-lg md:text-xl font-semibold leading-snug">Ты джун или мидл-маркетолог</div>
+          </div>
+        </li>
+        <li class="flex items-start gap-4 sm:gap-5 bg-white rounded-2xl p-5 sm:p-6 md:p-7 ring-1 ring-gray-100">
+          <div class="flex-none w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-xs sm:text-sm">02</div>
+          <div class="flex-1 min-w-0">
+            <div class="text-base sm:text-lg md:text-xl font-semibold leading-snug">Постоянно тушишь пожары в проектах</div>
+          </div>
+        </li>
+        <li class="flex items-start gap-4 sm:gap-5 bg-white rounded-2xl p-5 sm:p-6 md:p-7 ring-1 ring-gray-100">
+          <div class="flex-none w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-xs sm:text-sm">03</div>
+          <div class="flex-1 min-w-0">
+            <div class="text-base sm:text-lg md:text-xl font-semibold leading-snug">С тобой не советуются в проектах / компании</div>
+          </div>
+        </li>
+        <li class="flex items-start gap-4 sm:gap-5 bg-white rounded-2xl p-5 sm:p-6 md:p-7 ring-1 ring-gray-100">
+          <div class="flex-none w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-xs sm:text-sm">04</div>
+          <div class="flex-1 min-w-0">
+            <div class="text-base sm:text-lg md:text-xl font-semibold leading-snug">Ты застрял на 1 уровне в маркетинге</div>
+          </div>
+        </li>
+        <li class="flex items-start gap-4 sm:gap-5 bg-white rounded-2xl p-5 sm:p-6 md:p-7 ring-1 ring-gray-100">
+          <div class="flex-none w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-xs sm:text-sm">05</div>
+          <div class="flex-1 min-w-0">
+            <div class="text-base sm:text-lg md:text-xl font-semibold leading-snug">Хочешь признания от коллег</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ + CONTACT ===================== -->
+  <section class="bg-white py-20 sm:py-24 md:py-32">
+    <div class="max-w-3xl mx-auto px-5 sm:px-6 md:px-10">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight">
+        Остались <span class="italic-serif font-normal">вопросы?</span>
+      </h2>
+      <p class="mt-4 sm:mt-6 text-base sm:text-lg text-gray-600 leading-relaxed mb-8 sm:mb-12">
+        Чаще всего спрашивают это:
+      </p>
+
+      <div class="space-y-3 mb-12 sm:mb-16">
+        <details class="group bg-gray-50 rounded-xl p-5 sm:p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
+          <summary class="flex items-center justify-between gap-3 sm:gap-4 cursor-pointer">
+            <span class="font-semibold text-base sm:text-lg leading-snug">Это типичный трипвайр — ты мне на этом продукте дальше продавать будешь?</span>
+            <span class="faq-icon text-2xl text-gray-400 flex-none">+</span>
+          </summary>
+          <div class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
+            <b>Нет.</b> Это полноценный самостоятельный продукт. После него я ничего тебе продавать не буду — закончил блок, применил, пошёл дальше. Никаких допродаж за 100к после прохождения продукта нет.
+          </div>
+        </details>
+
+        <details class="group bg-gray-50 rounded-xl p-5 sm:p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
+          <summary class="flex items-center justify-between gap-3 sm:gap-4 cursor-pointer">
+            <span class="font-semibold text-base sm:text-lg leading-snug">А что если я уже знаю кастдевы / юнит-экономику / карту смыслов?</span>
+            <span class="faq-icon text-2xl text-gray-400 flex-none">+</span>
+          </summary>
+          <div class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed space-y-3">
+            <p>Скорее всего, ты <b>делаешь это неправильно</b>. Или делал неправильно — просто никто не подсветил. Поэтому даже если тема знакома, велика вероятность, что внутри будут моменты, которые перестроят твой подход.</p>
+            <p>Если же ты на 100% уверен, что с одной из тем у тебя нет вопросов — просто выбери тот блок, в котором ты <b>западаешь больше всего</b>. И возьми только его.</p>
+          </div>
+        </details>
+
+        <details class="group bg-gray-50 rounded-xl p-5 sm:p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
+          <summary class="flex items-center justify-between gap-3 sm:gap-4 cursor-pointer">
+            <span class="font-semibold text-base sm:text-lg leading-snug">Сколько времени нужно на изучение одного блока?</span>
+            <span class="faq-icon text-2xl text-gray-400 flex-none">+</span>
+          </summary>
+          <div class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
+            За <b>1-2 дня в нормальном темпе</b> ты успеешь полностью пройти блок и сразу внедрить его в свою работу. Это не курс «всё обо всём» на месяц — короткая практическая выжимка под применение.
+          </div>
+        </details>
+
+        <details class="group bg-gray-50 rounded-xl p-5 sm:p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
+          <summary class="flex items-center justify-between gap-3 sm:gap-4 cursor-pointer">
+            <span class="font-semibold text-base sm:text-lg leading-snug">Насколько долго продукты будут со мной?</span>
+            <span class="faq-icon text-2xl text-gray-400 flex-none">+</span>
+          </summary>
+          <div class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
+            Продукты остаются с тобой <b>навсегда</b>. В любой момент ты сможешь вернуться, пересмотреть и внедрить.
+          </div>
+        </details>
+
+        <details class="group bg-gray-50 rounded-xl p-5 sm:p-6 ring-1 ring-gray-100 hover:ring-gray-200 transition">
+          <summary class="flex items-center justify-between gap-3 sm:gap-4 cursor-pointer">
+            <span class="font-semibold text-base sm:text-lg leading-snug">Могу ли я задавать вопросы по продукту?</span>
+            <span class="faq-icon text-2xl text-gray-400 flex-none">+</span>
+          </summary>
+          <div class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
+            Да, у тебя будет <b>прямая связь со мной или куратором</b>. Если тебе будет что-то непонятно — ты всегда сможешь уточнить или спросить. А если у тебя есть свой проект — сможешь задавать вопросы по применению информации.
+          </div>
+        </details>
+      </div>
+
+      <!-- Contact CTA -->
+      <div class="rounded-2xl overflow-hidden">
+        <div class="hero-bg noise text-white p-6 sm:p-8 md:p-12 text-center">
+          <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight mb-3 sm:mb-4">
+            Остались <span class="italic-serif font-normal">вопросы?</span>
+          </h3>
+          <p class="text-sm sm:text-base text-white/70 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
+            Напиши мне в Telegram — отвечу лично.
+          </p>
+          <a href="https://t.me/JohnFox" target="_blank" rel="noopener" onclick="if(typeof ym!=='undefined')ym(109369042,'reachGoal','click_telegram_contact')" class="inline-flex items-center gap-2 sm:gap-3 px-5 sm:px-7 py-3.5 sm:py-4 rounded-full bg-white text-ink font-semibold hover:bg-white/90 transition text-sm sm:text-base max-w-full">
+            <svg viewBox="0 0 24 24" class="w-4 h-4 sm:w-5 sm:h-5 fill-current flex-none"><path d="M22 2L2 9.5l6.5 2.5L18 6 12 13.5 14.5 22z"/></svg>
+            <span class="truncate">Написать в Telegram · @JohnFox</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="bg-ink text-white/70">
+    <div class="max-w-6xl mx-auto px-5 sm:px-6 md:px-10 py-12 sm:py-14 md:py-16">
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10">
+        <div class="sm:col-span-2 md:col-span-1">
+          <div class="flex items-center gap-2.5 mb-4">
+            <div class="w-8 h-8 bg-white text-ink rounded-md flex items-center justify-center font-bold flex-none">F</div>
+            <span class="font-semibold text-white">Funnel academy</span>
+          </div>
+          <p class="text-sm leading-relaxed text-white/60">
+            База знаний Евгения Ли-Юна. 4 ключевые зоны, на которых строится фундамент любого маркетингового проекта.
+          </p>
+        </div>
+        <div>
+          <div class="text-xs uppercase tracking-widest text-white/40 mb-4">Правовое</div>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/offer.html" class="hover:text-white transition">Договор-оферта</a></li>
+            <li><a href="/privacy.html" class="hover:text-white transition">Политика конфиденциальности</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="text-xs uppercase tracking-widest text-white/40 mb-4">Контакты</div>
+          <ul class="space-y-2 text-sm">
+            <li>Telegram: <a href="https://t.me/JohnFox" target="_blank" rel="noopener" class="hover:text-white transition">@JohnFox</a></li>
+            <li class="text-white/50 text-xs mt-4 leading-relaxed">
+              ИП Ли-Юн Евгений Валерьевич<br />
+              ИНН 701741609060
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-10 sm:mt-12 pt-6 sm:pt-8 border-t border-white/10 text-xs text-white/40">
+        © 2026 Funnel academy. Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <!-- FAQ open tracking for Yandex.Metrika -->
+  <script>
+    document.querySelectorAll('details').forEach(function(d) {
+      d.addEventListener('toggle', function() {
+        if (d.open && typeof ym !== 'undefined') {
+          ym(109369042, 'reachGoal', 'faq_open');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
