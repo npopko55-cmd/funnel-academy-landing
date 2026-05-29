@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Funnel academy favicon: dark navy bg + white «F» mark + electric-blue accent dot -->
+  <rect width="32" height="32" rx="7" fill="#0A0E2A"/>
+  <!-- F: vertical stem -->
+  <rect x="9" y="7" width="4" height="18" fill="#FFFFFF"/>
+  <!-- F: top horizontal -->
+  <rect x="9" y="7" width="13" height="4" fill="#FFFFFF"/>
+  <!-- F: middle horizontal (shorter) -->
+  <rect x="9" y="14" width="9" height="3.5" fill="#FFFFFF"/>
+  <!-- Accent dot (matches brand chip on landing) -->
+  <circle cx="25" cy="24" r="2.2" fill="#5B6FFF"/>
+</svg>
